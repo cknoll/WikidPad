@@ -126,22 +126,17 @@ def mbcsDec(input, errors="strict"):
 
 
 
-if os.path.supports_unicode_filenames:
-    def dummy(s):
-        return s
+# Python 3 accepts str paths on all platforms (undecodable bytes in file names
+# are mapped via surrogateescape), so paths are kept as str. Encoding them to
+# bytes (as was necessary with Python 2 on Linux) leads to errors like
+# "Can't mix strings and bytes in path components" when the result is
+# combined with other paths.
+def pathEnc(s):
+    if isinstance(s, BYTETYPES):
+        return os.fsdecode(bytes(s))
+    return s
 
-    pathEnc = dummy
-    pathDec = dummy
-else:
-    def pathEnc(s):
-        if s is None:
-            return None
-        return mbcsEnc(s, "replace")[0]
-
-    def pathDec(s):
-        if s is None:
-            return None
-        return mbcsDec(s, "replace")[0]
+pathDec = pathEnc
 
 
 if isWindows():
