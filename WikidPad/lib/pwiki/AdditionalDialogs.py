@@ -182,6 +182,7 @@ class OpenWikiWordDialog(wx.Dialog, ModalDialogMixin):
         self.value = None
         self.listContent = []
         self.ignoreTextChange = 0
+        self.activating = False
 
         res = wx.xrc.XmlResource.Get()
         res.LoadDialog(self, parent, "OpenWikiWordDialog")
@@ -214,8 +215,25 @@ class OpenWikiWordDialog(wx.Dialog, ModalDialogMixin):
         self.Bind(wx.EVT_BUTTON, self.OnNewTabBackground, source=GUI_ID.btnNewTabBackground)
 
     def OnOk(self, evt):
-        if self.activateSelectedWikiWords(0):
-            self.EndModal(wx.ID_OK)
+        self._activateAndClose(0)
+
+
+    def _activateAndClose(self, tabMode):
+        """
+        Activate selected wiki words and close the dialog on success.
+        Activating a page may process pending events, so a second OK event
+        (e.g. from a double click) could arrive meanwhile and call EndModal()
+        twice which raises a wxAssertionError.
+        """
+        if self.activating or not self.IsModal():
+            return
+
+        self.activating = True
+        try:
+            if self.activateSelectedWikiWords(tabMode):
+                self.EndModal(wx.ID_OK)
+        finally:
+            self.activating = False
 
 
     def _fillListContent(self, searchTxt):
@@ -463,8 +481,7 @@ class OpenWikiWordDialog(wx.Dialog, ModalDialogMixin):
  
  
     def OnNewTab(self, evt):
-        if self.activateSelectedWikiWords(2):
-            self.EndModal(wx.ID_OK)
+        self._activateAndClose(2)
 
     def OnNewTabBackground(self, evt):
         self.activateSelectedWikiWords(3)
