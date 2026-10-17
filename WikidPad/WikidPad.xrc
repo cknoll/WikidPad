@@ -3722,7 +3722,7 @@
           <content/>
         </object>
         <option>3</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
         <minsize>250,200</minsize>
       </object>
@@ -3735,7 +3735,7 @@
             <underlined>0</underlined>
           </font>
         </object>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -3759,7 +3759,7 @@
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
     </object>
@@ -3775,13 +3775,13 @@
           <label>Wiki Word</label>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
         <object class="wxTextCtrl" name="text"/>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -3789,7 +3789,7 @@
           <content/>
         </object>
         <option>1</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
         <minsize>200,200</minsize>
       </object>
@@ -3797,13 +3797,13 @@
         <object class="wxStaticText" name="stLinkTo">
           <label></label>
         </object>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
         <object class="wxStaticLine"/>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -3989,7 +3989,7 @@
           <label>Choose Wiki Word</label>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -3998,7 +3998,7 @@
           <style>wxLB_EXTENDED</style>
         </object>
         <option>1</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
         <minsize>200,200</minsize>
       </object>
@@ -4006,13 +4006,13 @@
         <object class="wxCheckBox" name="cbSortAlphabetically">
           <label>Sort alphabetically</label>
         </object>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
         <object class="wxStaticLine"/>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -4075,7 +4075,7 @@
           <label>Choose Wiki Word</label>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -4084,14 +4084,14 @@
           <style>wxLB_EXTENDED</style>
         </object>
         <option>1</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
         <minsize>200,200</minsize>
       </object>
       <object class="sizeritem">
         <object class="wxStaticLine"/>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -4236,7 +4236,7 @@
         <object class="wxCheckBox" name="cbRenameSubPages">
           <label>Also rename subpages</label>
         </object>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -4260,7 +4260,7 @@
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
     </object>
@@ -4335,7 +4335,7 @@
           </object>
           <growablecols>1</growablecols>
         </object>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxPanel" name="pnImagePreviewContainer"/>
@@ -4353,7 +4353,7 @@
               <default>1</default>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -4361,7 +4361,7 @@
               <label> Cancel </label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
@@ -4436,14 +4436,14 @@
           <growablecols>1</growablecols>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxCheckBox" name="cbEditorFilePasteBracketedUrl">
           <label>Links in brackets</label>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -4455,7 +4455,7 @@
               <default>1</default>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -4463,7 +4463,7 @@
               <label> Cancel </label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
@@ -5180,7 +5180,7 @@
                       <label>&amp;Case sensitive</label>
                     </object>
                     <option>0</option>
-                    <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                    <flag>wxALL|wxEXPAND</flag>
                     <border>5</border>
                   </object>
                   <object class="sizeritem">
@@ -5188,7 +5188,7 @@
                       <label>&amp;Whole word</label>
                     </object>
                     <option>0</option>
-                    <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                    <flag>wxALL|wxEXPAND</flag>
                     <border>5</border>
                   </object>
                   <object class="sizeritem">
@@ -5196,7 +5196,7 @@
                       <label>R&amp;egular expression</label>
                     </object>
                     <option>0</option>
-                    <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                    <flag>wxALL|wxEXPAND</flag>
                     <border>5</border>
                   </object>
                 </object>
@@ -5215,7 +5215,7 @@
                   <selection>0</selection>
                 </object>
                 <option>1</option>
-                <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                <flag>wxALL|wxEXPAND</flag>
                 <border>5</border>
               </object>
             </object>
@@ -5236,7 +5236,7 @@
               <style></style>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -5244,7 +5244,7 @@
               <label> &amp;Replace </label>
             </object>
             <option>0</option>
-            <flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -5252,7 +5252,7 @@
               <label> Replace &amp;All </label>
             </object>
             <option>0</option>
-            <flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -5260,7 +5260,7 @@
               <label>Close</label>
             </object>
             <option>0</option>
-            <flag>wxLEFT|wxRIGHT|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxLEFT|wxRIGHT|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -5268,7 +5268,7 @@
               <label></label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
             <cellpos>1,1</cellpos>
           </object>
@@ -5286,7 +5286,7 @@
                 <object class="sizeritem">
                   <object class="wxStaticLine"/>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <cellpos>1,0</cellpos>
                   <cellspan>1,1</cellspan>
                   <border>5</border>
@@ -5325,7 +5325,7 @@
                     <label>&amp;Load Search</label>
                   </object>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <border>5</border>
                 </object>
                 <object class="sizeritem">
@@ -5333,7 +5333,7 @@
                     <label>&amp;Save Search</label>
                   </object>
                   <option>0</option>
-                  <flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND</flag>
                   <border>5</border>
                 </object>
                 <object class="sizeritem">
@@ -5341,7 +5341,7 @@
                     <label>&amp;Delete Search(es)</label>
                   </object>
                   <option>0</option>
-                  <flag>wxLEFT|wxRIGHT|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxLEFT|wxRIGHT|wxEXPAND</flag>
                   <border>5</border>
                 </object>
                 <object class="sizeritem">
@@ -5350,7 +5350,7 @@
                     <hidden>1</hidden>
                   </object>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <border>5</border>
                 </object>
                 <orient>wxVERTICAL</orient>
@@ -5447,7 +5447,7 @@
           <label>Open in new window</label>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -5455,7 +5455,7 @@
           <label>Just bring to front if open already</label>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -5467,7 +5467,7 @@
               <label>Show in toolbar</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -5495,7 +5495,7 @@
                       <max>9</max>
                     </object>
                     <option>0</option>
-                    <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                    <flag>wxALL|wxEXPAND</flag>
                     <border>5</border>
                   </object>
                 </object>
@@ -5547,7 +5547,7 @@
               <label>OK</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -5555,7 +5555,7 @@
               <label>Cancel</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
@@ -5721,7 +5721,7 @@
       <object class="spacer">
         <size>10,10</size>
         <option>1</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxBoxSizer">
@@ -5731,7 +5731,7 @@
               <label>Show pictures as links</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -5743,7 +5743,7 @@
                   <style>wxALIGN_RIGHT</style>
                 </object>
                 <option>1</option>
-                <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+                <flag>wxALL|wxEXPAND</flag>
                 <border>5</border>
               </object>
               <object class="sizeritem">
@@ -5767,7 +5767,7 @@
               <checked>1</checked>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -5777,7 +5777,7 @@
                 <object class="wxStaticText">
                   <label>Title of toc:</label>
                 </object>
-                <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                <flag>wxALL|wxEXPAND</flag>
                 <border>5</border>
               </object>
               <object class="sizeritem">
@@ -5788,7 +5788,7 @@
               </object>
             </object>
             <option>0</option>
-            <flag>wxTOP|wxLEFT|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxTOP|wxLEFT|wxEXPAND</flag>
           </object>
           <object class="spacer">
             <size>10,10</size>
@@ -6100,7 +6100,7 @@
       <object class="spacer">
         <size>10,10</size>
         <option>1</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxBoxSizer">
@@ -6111,7 +6111,7 @@
               <checked>0</checked>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
@@ -6134,7 +6134,7 @@
               <style>wxALIGN_RIGHT</style>
             </object>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -6142,12 +6142,12 @@
               <content/>
             </object>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxBoxSizer">
@@ -6159,7 +6159,7 @@
               <hidden>1</hidden>
             </object>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -6169,28 +6169,28 @@
               <hidden>1</hidden>
             </object>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxStaticLine"/>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>2</border>
       </object>
       <object class="sizeritem">
         <object class="wxPanel" name="additOptions"/>
         <option>2</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxStaticLine"/>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>2</border>
       </object>
       <object class="sizeritem">
@@ -6198,7 +6198,7 @@
           <label>Source directory:</label>
         </object>
         <option>1</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -6207,7 +6207,7 @@
           <object class="sizeritem">
             <object class="wxTextCtrl" name="tfSource"/>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
             <minsize>350,-1</minsize>
           </object>
@@ -6215,13 +6215,13 @@
             <object class="wxButton" name="btnSelectSource">
               <label>...</label>
             </object>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
             <minsize>20,-1</minsize>
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxBoxSizer">
@@ -6244,7 +6244,7 @@
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
     </object>
   </object>
@@ -6258,7 +6258,7 @@
           <label>Defaults</label>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -6310,7 +6310,7 @@
       <object class="sizeritem">
         <object class="wxStaticLine"/>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -6318,7 +6318,7 @@
           <label>Details</label>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -6337,7 +6337,7 @@
           <fg>#FF0000</fg>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -6399,7 +6399,7 @@
               <fg>#FF0000</fg>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -6432,7 +6432,7 @@
               <default>1</default>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -6440,7 +6440,7 @@
               <label>&amp;Delete</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -6448,7 +6448,7 @@
               <label>&amp;Delete All</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
@@ -6545,7 +6545,7 @@
           <fg>#FF0000</fg>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -6569,7 +6569,7 @@
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
     </object>
@@ -6588,7 +6588,7 @@
               <style>wxALIGN_RIGHT</style>
             </object>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -6602,12 +6602,12 @@
               <selection>0</selection>
             </object>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxBoxSizer">
@@ -6618,7 +6618,7 @@
               <style>wxALIGN_RIGHT</style>
             </object>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -6627,28 +6627,28 @@
               <selection>0</selection>
             </object>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxStaticLine"/>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>2</border>
       </object>
       <object class="sizeritem">
         <object class="wxPanel" name="additOptions"/>
         <option>2</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxStaticLine"/>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>2</border>
       </object>
       <object class="sizeritem">
@@ -6670,7 +6670,7 @@
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxBoxSizer">
@@ -6692,7 +6692,7 @@
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
     </object>
   </object>
@@ -6708,24 +6708,24 @@
               <style>wxALIGN_RIGHT</style>
             </object>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
             <object class="wxTextCtrl" name="tfWikiPageSeparator"/>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_BOTTOM</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
       <object class="sizeritem">
         <object class="wxButton" name="btnChoosePlainTextFont">
           <label>Choose plain text font</label>
         </object>
-        <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL</flag>
         <border>5</border>
       </object>
     </object>
@@ -6740,7 +6740,7 @@
           <label>Referencing directory in filestorage keeps everything in it</label>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -6763,7 +6763,7 @@
           </object>
         </object>
         <option>0</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
       </object>
     </object>
   </object>
@@ -6785,7 +6785,7 @@
                     <label></label>
                   </object>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <border>5</border>
                 </object>
                 <object class="sizeritem">
@@ -6832,13 +6832,13 @@
                     <label>Keeping directory in filestorage keeps everything in it</label>
                   </object>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <border>5</border>
                 </object>
                 <object class="sizeritem">
                   <object class="wxStaticLine"/>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <border>5</border>
                 </object>
                 <object class="sizeritem">
@@ -6846,7 +6846,7 @@
                     <label>Details</label>
                   </object>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <border>5</border>
                 </object>
                 <object class="sizeritem">
@@ -6865,7 +6865,7 @@
                     <fg>#FF0000</fg>
                   </object>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <border>5</border>
                 </object>
               </object>
@@ -6882,7 +6882,7 @@
                     <label></label>
                   </object>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <border>5</border>
                 </object>
                 <object class="sizeritem">
@@ -6890,7 +6890,7 @@
                     <label>Details</label>
                   </object>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <border>5</border>
                 </object>
                 <object class="sizeritem">
@@ -6923,7 +6923,7 @@
                     <fg>#FF0000</fg>
                   </object>
                   <option>0</option>
-                  <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+                  <flag>wxALL|wxEXPAND</flag>
                   <border>5</border>
                 </object>
               </object>
@@ -6932,7 +6932,7 @@
           </object>
         </object>
         <option>1</option>
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+        <flag>wxALL|wxEXPAND</flag>
         <border>5</border>
       </object>
       <object class="sizeritem">
@@ -6984,13 +6984,13 @@
               <label>To check</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
             <object class="unknown" name="tfToCheck"/>
             <option>1</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
             <minsize>200,50</minsize>
           </object>
@@ -6999,13 +6999,13 @@
               <label>Replace with:</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
             <object class="unknown" name="tfReplaceWith"/>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
             <minsize></minsize>
           </object>
@@ -7014,7 +7014,7 @@
               <style>wxLC_REPORT|wxLC_NO_HEADER|wxLC_SINGLE_SEL</style>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
             <minsize>200,120</minsize>
           </object>
@@ -7023,7 +7023,7 @@
               <label>Go to next page</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="spacer">
@@ -7042,7 +7042,7 @@
               <label>&amp;Ignore</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -7050,7 +7050,7 @@
               <label>Ig&amp;nore All</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -7059,7 +7059,7 @@
               <default>1</default>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -7067,7 +7067,7 @@
               <label>Replace &amp;All</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -7075,7 +7075,7 @@
               <label>Add &amp;Globally</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -7083,7 +7083,7 @@
               <label>Add &amp;Locally</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
           <object class="sizeritem">
@@ -7091,7 +7091,7 @@
               <label>Done</label>
             </object>
             <option>0</option>
-            <flag>wxALL|wxEXPAND|wxALIGN_CENTRE_VERTICAL</flag>
+            <flag>wxALL|wxEXPAND</flag>
             <border>5</border>
           </object>
         </object>
