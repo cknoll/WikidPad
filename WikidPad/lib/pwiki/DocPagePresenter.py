@@ -440,9 +440,17 @@ class DocPagePresenter(wx.Panel, BasicDocPagePresenter, StorablePerspective):
         def SetFocus(self):
             try:
                 ctrl = self.subControls[self.lastVisibleCtrlName]
-                wx.CallAfter(ctrl.SetFocus)
             except KeyError:
                 wx.Panel.SetFocus(self)
+                return
+
+            def setFocusIfAlive():
+                # The control may have been destroyed meanwhile
+                # (e.g. when closing tabs on exit)
+                if ctrl:
+                    ctrl.SetFocus()
+
+            wx.CallAfter(setFocusIfAlive)
     else:
         def SetFocus(self):
             try:
