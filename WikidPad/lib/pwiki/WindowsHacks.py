@@ -263,14 +263,21 @@ except AttributeError:
 
 
 class SHFILEOPSTRUCTW(ctypes.Structure):
+    # shellapi.h declares the structure with 1-byte packing on 32 bit Windows
+    if sizeof(c_void_p) == 4:
+        _pack_ = 1
+
+    # Handles and pointers must have pointer size, otherwise on 64 bit Windows
+    # all following fields are misplaced and SHFileOperationW returns 87
+    # (ERROR_INVALID_PARAMETER)
     _fields_ = [
-        ("hwnd", ctypes.c_uint),
+        ("hwnd", ctypes.c_void_p),
         ("wFunc", ctypes.c_uint),
         ("pFrom", ctypes.c_wchar_p),
         ("pTo", ctypes.c_wchar_p),
-        ("fFlags", ctypes.c_uint),
-        ("fAnyOperationsAborted", ctypes.c_uint),
-        ("hNameMappings", ctypes.c_uint),
+        ("fFlags", ctypes.c_ushort),
+        ("fAnyOperationsAborted", ctypes.c_int),
+        ("hNameMappings", ctypes.c_void_p),
         ("lpszProgressTitle", ctypes.c_wchar_p)
         ]
 
@@ -314,7 +321,7 @@ if SHFileOperationW is not None:
 
         srcPathWc = ctypes.c_wchar_p(srcPath + "\0")
 
-        fileOp.hwnd = 0
+        fileOp.hwnd = None
         fileOp.wFunc = opcode
         fileOp.pFrom = srcPathWc
         if dstPath is not None:
@@ -326,12 +333,12 @@ if SHFileOperationW is not None:
             dstPathWc = ctypes.c_wchar_p(dstPath + "\0")
             fileOp.pTo = dstPathWc
         else:
-            fileOp.pTo = 0
+            fileOp.pTo = None
         fileOp.fFlags = FOF_ALLOWUNDO | FOF_MULTIDESTFILES | FOF_NOCONFIRMATION | \
                 FOF_NOCONFIRMMKDIR | FOF_WANTNUKEWARNING # | FOF_SILENT  | FOF_NOERRORUI
         fileOp.fAnyOperationsAborted = 0
-        fileOp.hNameMappings = 0
-        fileOp.lpszProgressTitle = 0
+        fileOp.hNameMappings = None
+        fileOp.lpszProgressTitle = None
 
         res = SHFileOperationW(ctypes.byref(fileOp))
 
