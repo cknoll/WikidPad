@@ -418,7 +418,9 @@ camelCaseWordsEnabled: false;a=[camelCaseWordsEnabled: false]\\n
         self.userActionCoord.applyConfiguration()
 
         self.Show(True)
-        
+        # Otherwise the window may stay empty after a suspend (Linux/X11)
+        OsAbstract.installWindowSizeGuard(self)
+
         self.Bind(EVT_REMOTE_COMMAND,  self.OnRemoteCommand)
 
         # Inform that idle handlers and window-specific threads can now be started

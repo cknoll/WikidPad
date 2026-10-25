@@ -176,6 +176,16 @@ INITIAL_CPU_AFFINITY = getCpuAffinity()
 
 
 
+# Define installWindowSizeGuard
+
+if LinuxHacks:
+    installWindowSizeGuard = LinuxHacks.installWindowSizeGuard
+else:
+    def installWindowSizeGuard(window):
+        return False
+
+
+
 # Define createInterceptCollection, createClipboardInterceptor  (may return None)
 # Define supportsClipboardInterceptor
 
