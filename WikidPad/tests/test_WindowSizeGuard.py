@@ -122,12 +122,13 @@ def test_huge_configure_size_does_not_break_painting(frame, libs):
     xid = gdk.gdk_x11_window_get_xid(gdkWindow)
     width = frame.GetSize()[0]
 
-    # A WM computing the height -29 sends 65507 (unsigned 16 bit)
-    _sendConfigureNotify(x11, xid, width, 65507)
+    # Observed with KWin when undocking during suspend: size -4x-33, sent as
+    # 65532x65503 (unsigned 16 bit)
+    _sendConfigureNotify(x11, xid, 65532, 65503)
     assert _waitFor(lambda: frame.GetSize()[1] != 300)
     # Without the guard cairo reports CAIRO_STATUS_INVALID_SIZE (32) from now on
     assert _surfaceStatus(gdk, cairo, gdkWindow) == CAIRO_STATUS_SUCCESS
-    assert frame.GetSize()[1] == 32767
+    assert tuple(frame.GetSize()) == (32767, 32767)
 
     _sendConfigureNotify(x11, xid, width, 300)
     assert _waitFor(lambda: frame.GetSize()[1] == 300)

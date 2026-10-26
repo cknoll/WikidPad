@@ -151,13 +151,14 @@ def getCpuCount():
 # Guard against huge window sizes (wxGTK 3 on X11)
 #
 # If the window manager sends a ConfigureNotify with a width or height above
-# 32767 to a toplevel window (e.g. KWin computes a negative size for a maximized
-# window while no monitor is connected during suspend, which wraps around to
-# about 65500), GDK passes this size to the cairo-xlib surface it caches for the
-# window. Cairo rejects the size and puts the surface permanently into the error
-# state CAIRO_STATUS_INVALID_SIZE. From then on nothing is painted into the window
-# anymore, it stays empty when shown again. GDK creates this surface only once
-# per window, so the window can't be repaired afterwards, only a restart helps.
+# 32767 to a toplevel window (e.g. KWin 5.27 sent 65532x65503, i.e. -4x-33 in
+# 16 bit, to a maximized window when the external monitor was disconnected while
+# a suspend was starting), GDK passes this size to the cairo-xlib surface it
+# caches for the window. Cairo rejects the size and puts the surface permanently
+# into the error state CAIRO_STATUS_INVALID_SIZE. From then on nothing is painted
+# into the window anymore, it stays empty when shown again. GDK creates this
+# surface only once per window, so the window can't be repaired afterwards, only
+# a restart helps.
 # Therefore such sizes are clamped before GDK processes the event.
 
 _XLIB_COORD_MAX = 32767  # Largest surface size accepted by cairo-xlib
